@@ -1,10 +1,18 @@
 import React from 'react';
-// import { Grid, Row, Col, Form, FormGroup, FormControl, Button, PageHeader, NavItem, Nav } from 'react-bootstrap';
+import { Form, FormGroup, FormControl, Button } from 'react-bootstrap';
 
 class SearchBar extends React.Component {
     render() {
-
-
+      return (
+      <Form inline>
+      <FormGroup controlId="formInlineName">
+        <FormControl type="text" placeholder="Search" />
+      </FormGroup>
+      <Button type="submit">
+        Go
+      </Button>
+    </Form>
+      );
     }
 }
 
