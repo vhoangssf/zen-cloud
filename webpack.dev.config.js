@@ -30,7 +30,11 @@ const config = {
             presets: ['react']
           }
         }
-      }
+      },
+        {
+          test: /\.json$/,
+          loader: 'json-loader'
+        }
     ]
   },
   devtool: 'inline-source-map',

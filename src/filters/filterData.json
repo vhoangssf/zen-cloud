@@ -1,0 +1,24 @@
+{
+  "filters": [
+    {
+      "name": "Teachers",
+      "options": ["Thich Nhat Thang", "Sister Chan Kong", "Phap Luu", "Phap Dung", "Phap Lai"]
+    },
+    {
+      "name": "Languages",
+      "options": ["English", "French", "Vietnamese", "German"]
+    },
+    {
+      "name": "Location",
+      "options": ["Plum Village", "Deer Park", "Blue Cliff", "External Event"]
+    },
+    {
+      "name": "Aspect of Dharma",
+      "options": ["Midnfulness", "Meditation", "Walking Meditation", "Breathing", "4 Nobel Truths", "8 Fold Nobel Path"]
+    },
+    {
+      "name": "Length of Content",
+      "options": ["Long", "Medium", "Short"]
+    }
+  ]
+}

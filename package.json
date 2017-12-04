@@ -1,5 +1,5 @@
 {
-  "name": "react-boilerplate",
+  "name": "zen-cloud",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,12 +9,13 @@
     "build": "webpack --config webpack.dev.config.js",
     "test": "karma start --autoWatch false --single-run true",
     "test:watch": "karma start",
-    "start": "cp index.html ./dist && webpack-dev-server --open --config webpack.dev.config.js"
+    "start": "cp index.html ./dist/index.html && webpack-dev-server --open --config webpack.dev.config.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.4",
+    "prop-types": "^15.6.0",
     "react": "^16.1.1",
     "react-bootstrap": "^0.31.5",
     "react-dom": "^16.1.1",
@@ -29,6 +30,7 @@
     "eslint": "^4.11.0",
     "eslint-loader": "^1.9.0",
     "eslint-plugin-react": "^7.5.1",
+    "json-loader": "^0.5.7",
     "karma": "^1.7.1",
     "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^2.2.0",

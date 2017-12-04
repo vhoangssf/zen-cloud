@@ -2,7 +2,7 @@ import React from 'react';
 import { Grid, Row, Col, PageHeader } from 'react-bootstrap';
 import NavBar from './NavBar';
 import SearchBar from './SearchBar';
-import RadioFilter from './RadioFilter';
+import RadioFilter from './filters/RadioFilter';
 import SortResults from './SortResults';
 import DisplayAmount from './DisplayAmount';
 import QuickLinks from './QuickLinks';
@@ -14,7 +14,7 @@ class Main extends React.Component {
   render() {
     return (
       <div>
-      <Grid>
+      <Grid fluid="true">
       <Row>
         <Col lg={4}><PageHeader>Zen Cloud</PageHeader></Col>
         <Col lg={8}><SearchBar/></Col>

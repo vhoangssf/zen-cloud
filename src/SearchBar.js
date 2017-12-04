@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, FormGroup, FormControl, Button } from 'react-bootstrap';
+import { Form, FormGroup, FormControl, Button, Glyphicon } from 'react-bootstrap';
 
 class SearchBar extends React.Component {
     render() {
@@ -9,7 +9,7 @@ class SearchBar extends React.Component {
         <FormControl type="text" placeholder="Search" />
       </FormGroup>
       <Button type="submit">
-        Go
+        <Glyphicon glyph="search" />
       </Button>
     </Form>
       );
