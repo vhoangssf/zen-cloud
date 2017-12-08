@@ -14,7 +14,7 @@ class Main extends React.Component {
   render() {
     return (
       <div>
-      <Grid>
+      <Grid fluid="true">
       <Row>
         <Col lg={4}><PageHeader>Zen Cloud</PageHeader></Col>
         <Col lg={8}><SearchBar/></Col>

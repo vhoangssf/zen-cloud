@@ -2,15 +2,21 @@
   "videos": [
     {
       "name": "Summer Opening 2012 First Talk",
-      "descriptions": "Some Description"
+      "teacher": "Thich Nhat Hanh",
+      "language": "English",
+      "descriptions": "Some Description about Thich Nhat Hanh's first talk in the summer of 2012 which he opened this talk with."
     },
     {
       "name": "Video 2 Mindfulness",
-      "descriptions": "Another description"
+      "teacher": "Phap Lai",
+      "language": "Vietnamese",
+      "descriptions": "Another description that explains the content very well and makes you want to practice Mindfulness."
     },
     {
       "name": "Video 3 Meditation",
-      "descriptions": "Things about Meditation"
+      "teacher": "Sister Chan Kong",
+      "language": "French",
+      "descriptions": "Things about Meditation from the teach Sister Chan Kong that helps you meditate very well."
     }
   ]
 }
