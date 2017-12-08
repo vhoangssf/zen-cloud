@@ -4,7 +4,7 @@ import Filter from './Filter';
 import filterData from './filterData.json';
 import _ from 'lodash';
 
-class RadioFilter extends React.Component {
+class ListFilter extends React.Component {
   render() {
    let filters = _.map(filterData.filters, (data) => {
      return <Filter filter={data} key={data.name}/>;
@@ -19,4 +19,4 @@ class RadioFilter extends React.Component {
   }
 }
 
-export default RadioFilter;
+export default ListFilter;

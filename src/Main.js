@@ -2,24 +2,23 @@ import React from 'react';
 import { Grid, Row, Col, PageHeader } from 'react-bootstrap';
 import NavBar from './NavBar';
 import SearchBar from './SearchBar';
-import RadioFilter from './filters/RadioFilter';
+import ListFilter from './filters/ListFilter';
 import SortResults from './SortResults';
 import DisplayAmount from './DisplayAmount';
 import QuickLinks from './QuickLinks';
 import PageSelect from './PageSelect';
-import ThumbnailResult from './ThumbnailResult';
+import VideoList from './video/VideoList';
 
 class Main extends React.Component {
 
   render() {
     return (
       <div>
-      <Grid fluid="true">
+      <Grid>
       <Row>
         <Col lg={4}><PageHeader>Zen Cloud</PageHeader></Col>
         <Col lg={8}><SearchBar/></Col>
       </Row>
-
 
       <Row>
         <Col lg={12}>
@@ -29,7 +28,7 @@ class Main extends React.Component {
 
       <Row>
         <Col lg={3}>
-          <RadioFilter/>
+          <ListFilter/>
         </Col>
         <Col lg={2}>
           <SortResults/>
@@ -41,7 +40,7 @@ class Main extends React.Component {
           <PageSelect/>
         </Col>
         <Col lg={6}>
-          <ThumbnailResult/>
+          <VideoList/>
         </Col>
         <Col lg={3}>
           <QuickLinks/>
