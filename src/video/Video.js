@@ -5,14 +5,15 @@ import PropTypes from 'prop-types';
 
 class Video extends React.Component {
   render() {
-    // let descriptions = _.map(this.props.video.descriptions, (desc) => {
+    // let descriptions = _.map(this.props.Video.descriptions, (desc) => {
     //   return <Thumbnail key={ desc }>{ desc }</Thumbnail>;
     // });
+    // console.log('hit', this.props.Video.descriptions);
     return (
       <div>
-        {/* <b>{ this.props.video.name }</b> */}
+        <b>{ this.props.Video.name }{this.props.Video.descriptions}</b>
            {/* { descriptions } */}
-          <Thumbnail>Video</Thumbnail>
+          {/* <Thumbnail>Video</Thumbnail> */}
       </div>
     );
   }
@@ -21,5 +22,5 @@ class Video extends React.Component {
 export default Video;
 
 Video.propTypes = {
-  video: PropTypes.object
+  Video: PropTypes.object
 };

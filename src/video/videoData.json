@@ -2,15 +2,15 @@
   "videos": [
     {
       "name": "Summer Opening 2012 First Talk",
-      "description": "Some Description"
+      "descriptions": "Some Description"
     },
     {
       "name": "Video 2 Mindfulness",
-      "description": "Another description"
+      "descriptions": "Another description"
     },
     {
       "name": "Video 3 Meditation",
-      "description": "Things about Meditation"
+      "descriptions": "Things about Meditation"
     }
   ]
 }
